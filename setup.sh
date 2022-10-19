@@ -14,10 +14,10 @@ echo "     Scrip By {DoD-99}...!"| lolcat
 echo " "
 apt-get update -y
 apt-get upgrade -y
-apt install python -y
-apt install python2 -y
-apt install python3 -y
-apt install nano -y
+pkg install python -y
+pkg install python2 -y
+pkg install python3 -y
+pkg install nano -y
 apt install cmatrix -y
 apt install cat -y
 apt install curl -y
@@ -40,12 +40,12 @@ apt install pip2 -y
 apt install ruby -y
 apt install php -y
 pip2 install php -y
-pip2 install requests -y
-pip install mechanize -y
-pip2 install mechanize -y
-pip install lolcat -y
-pip install bs4 -y
-pip2 install bs4 -y
+pip install requests
+pip install mechanize
+pip2 install mechanize
+pip install lolcat
+pip install bs4
+pip2 install bs4
 termux-setup-storage
 clear
 echo " TERMUX SET-UP DONE "| lolcat
